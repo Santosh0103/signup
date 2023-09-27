@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    .button-container {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .button-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .button-description {
+      font-size: 25px;
+      flex: 1;
+      text-decoration: underline;
+    }
+    .page-heading {
+      margin-bottom: 30px; /* Add more space under the heading */
+      font-size: 80px;
+      text-align: center;
+    }
+    body{
+      padding-top: 125px;
+        background-image: url('./picture/abc.png');
+        background-size: cover; /* Adjust as needed */
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      font-weight: 800;
+
+    }
+    .description{
+
+      text-align: center;
+      margin-top: 30px;
+      margin-right: 10px;
+      margin-left: 20px;
+    }
+  </style>
+</head>
+<body>
+
+
+
+<div class="container">
+  <h1 class="page-heading">Client Side Performance</h1>
+  <div class="button-container">
+    <div class="button-row">
+      <p class="button-description">Lighthouse</p>
+      <p class="description">  Lighthouse generates a detailed report of the website which includes performance, accesibility, SEO(search engine optimization),best practices, PWA(progressive web app) </p>
+      <a href="./lighthouse/index.html" class="btn btn-primary btn-lg">Click</a>
+    </div>
+    <div class="button-row">
+      <p class="button-description">Security</p>
+      <p class="description"> It tracks the sensitive data like email, passwords, card details etc by scanning the local and session storages of the website. </p>
+      <a href="./index.html" class="btn btn-primary btn-lg">Click</a>
+    </div>
+    <div class="button-row">
+      <p class="button-description">Validity</p>
+      <p class="description" style="margin-right: 300px;" >  It verifies whether the URL provided is valid or not   </p>
+      <a href="./validity/valid.html" class="btn btn-primary btn-lg">Click</a>
+    </div>
+  </div>
+</div>
+</body>
+</html>
